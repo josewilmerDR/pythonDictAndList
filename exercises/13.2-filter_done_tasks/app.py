@@ -12,4 +12,6 @@ tasks = [
 
 
 #Your code go here:
+doneTaks = list(filter(lambda item : item["done"] == True, tasks))
+print(doneTaks)
 
